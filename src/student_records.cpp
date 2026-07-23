@@ -4,7 +4,7 @@
 using namespace std;
 
 bool isValidStudentId(string id) {
-    // TODO:
+    // TODO:   -Remove TODOS
     // A valid ID should have at least 3 characters.
     // A valid ID should start with an uppercase letter.
     // Hint: You may compare characters directly, such as id[0] >= 'A'.
@@ -46,7 +46,7 @@ double calculateAverageScore(const Student students[], int size) {
     // If the array is null or size is invalid, return 0.0.
     // Otherwise, return the average score.
     if (nullptr == students || size <= 0) {
-        return 0;
+        return 0; //Return 0.0 not 0
     }
     double total = 0;
     
